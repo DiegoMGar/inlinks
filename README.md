@@ -1,6 +1,6 @@
-#ALL INLINKS PROYECT
+# ALL INLINKS PROYECT
 
-##FOR 3DIDS
+## FOR 3DIDS
 
 This program, in python, will allow to group the anchors and alt texts from resource to know if there are any duplicated.
 
@@ -8,11 +8,11 @@ Taking as input a csv file, make sure that the first row has 'alt text' or/and '
 
 It takes too, if exists, the 'status' and 'code' to fill more information about your data.
 
-###RUN THE PROGRAM
+### RUN THE PROGRAM
 Easy pisy:
 ```
 python main.py inputfile outputfile
 ```
 
-###Any questions, don't doubt to contact me.
-####C'YA
+### Any questions, don't doubt to contact me.
+#### C'YA
