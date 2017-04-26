@@ -14,5 +14,7 @@ Easy peasy:
 python3 main.py inputfile
 ```
 
+The output will be in the html folder, named **index.html**. Sorted by duplicated dest for each anchor, with collapse by bootstrap.
+
 ### Any questions, don't doubt to contact me.
 #### C'YA
