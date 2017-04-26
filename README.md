@@ -11,7 +11,7 @@ It takes too, if exists, the 'status' and 'code' to fill more information about 
 ### RUN THE PROGRAM
 Easy peasy:
 ```
-python3 main.py inputfile outputfile
+python3 main.py inputfile
 ```
 
 ### Any questions, don't doubt to contact me.
