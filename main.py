@@ -72,8 +72,6 @@ for x in inputfile.readlines():
 		nodes.append(nodo)
 inputfile.close();
 
-outputfile = open(outputfilename,"w")
-
 bodyfile = open("html/resources/plantilla.html","r")
 body = bodyfile.read()
 bodyfile.close()
@@ -125,5 +123,7 @@ for nodo in nodes:
 
 body = body.replace('{{LISTADO}}',finalcollapse);
 body = body.replace('{{TOTALDUPLICATED}}',str(contador));
+
+outputfile = open(outputfilename,"w")
 outputfile.write(body);
 outputfile.close()
